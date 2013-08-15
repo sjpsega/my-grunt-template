@@ -16,5 +16,5 @@ git clone https://github.com/sjpsega/my-grunt-template.git ~/.grunt-init/mytempl
 At the command-line, cd into an empty directory, run this command and follow the prompts.
 
 ~~~
-grunt-init jquery
+grunt-init mytemplate
 ~~~
