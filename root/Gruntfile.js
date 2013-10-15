@@ -73,7 +73,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.loadNpmTasks('grunt-contrib-watch');
-
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  
   // By default, lint and run all tests.
   // grunt.registerTask('default', ['jshint', 'test']);
   grunt.registerTask('default', ['fd_grunt_jade','fd_grunt_stylus','watch']);
